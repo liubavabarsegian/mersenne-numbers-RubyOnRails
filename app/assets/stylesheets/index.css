@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(44, 22, 212);
+    font-size: 30px;
+}
+main
+{
+    text-align: center;
+    margin-top: 15%;
+    padding: 30px;
+    background-color: rgb(133, 106, 222, 0.5);
+    border-radius: 20px;
+}
+button {
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: rgb(78, 66, 140);
+    color: white;
+    
+}
