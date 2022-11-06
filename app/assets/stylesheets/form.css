@@ -1,0 +1,29 @@
+.form-main
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(176, 171, 218);
+
+}
+.form-container
+{
+    margin: 50px;
+}
+.form-container h2
+{
+    font-size: 40px;
+    text-align: left;
+}
+p
+{
+    font-size: 25px;
+}
+.form-button
+{
+    border-radius: 15px;
+}
+.form-button:hover
+{
+    background-color: rgb(210, 187, 232);
+}
