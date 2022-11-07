@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-# Helper fpr form
+# module FromsHelper
 module FormsHelper
 end

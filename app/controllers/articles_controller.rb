@@ -1,4 +1,6 @@
+# frozen_string_literal: true
+
+# class ArtticlesController
 class ArticlesController < ApplicationController
-  def index
-  end
+  def index; end
 end

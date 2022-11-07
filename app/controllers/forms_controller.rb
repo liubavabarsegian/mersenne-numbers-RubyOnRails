@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-# To controle form
+# class FromsController
 class FormsController < ApplicationController
-    def form 
-    end
+  def form; end
 end

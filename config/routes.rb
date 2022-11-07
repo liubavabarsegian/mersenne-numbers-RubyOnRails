@@ -1,8 +1,8 @@
-Rails.application.routes.draw do
-  
+# frozen_string_literal: true
 
-  root "articles#index"
-  #get "/forms", to: "forms#form"
+Rails.application.routes.draw do
+  root 'articles#index'
+  # get "/forms", to: "forms#form"
 
   get 'index' => 'articles#index'
   get 'result' => 'results#result'
