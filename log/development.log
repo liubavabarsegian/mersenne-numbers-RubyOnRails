@@ -8546,3 +8546,1378 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 21ms (Views: 19.7ms | Allocations: 4194)
 
 
+Started GET "/" for ::1 at 2022-11-07 12:01:10 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 256.0ms | Allocations: 37900)
+Completed 200 OK in 272ms (Views: 260.9ms | ActiveRecord: 0.0ms | Allocations: 41323)
+
+
+Started GET "/form" for ::1 at 2022-11-07 12:01:31 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1906)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 5381)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 6161)
+
+
+Started GET "/result?num=1000000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-07 12:01:37 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"1000000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.0ms | Allocations: 407)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3895)
+Completed 200 OK in 20063ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3926274)
+
+
+Started GET "/form" for ::1 at 2022-11-07 12:02:08 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4411)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 4694)
+
+
+Started GET "/" for ::1 at 2022-11-07 22:31:13 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 277.4ms | Allocations: 37123)
+Completed 200 OK in 298ms (Views: 285.4ms | ActiveRecord: 0.0ms | Allocations: 40546)
+
+
+Started GET "/form" for ::1 at 2022-11-07 22:31:22 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 16.7ms | Allocations: 1955)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 5447)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms | Allocations: 6227)
+
+
+Started GET "/result?num=40000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-07 22:31:32 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"40000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 2.5ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3870)
+Completed 200 OK in 428ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 160486)
+
+
+Started GET "/form" for ::1 at 2022-11-07 22:31:35 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1210)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4428)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 4711)
+
+
+Started GET "/" for ::1 at 2022-11-07 22:31:37 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3240)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3499)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:09:38 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 172.6ms | Allocations: 37292)
+Completed 200 OK in 186ms (Views: 176.9ms | ActiveRecord: 0.0ms | Allocations: 40714)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:09:39 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3443)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3766)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:09:42 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1960)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5452)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 6230)
+
+
+Started GET "/result?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 12:09:46 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.8ms | Allocations: 390)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3869)
+Completed 200 OK in 18ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8516)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:09:56 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3254)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3537)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:27:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2195)
+  Rendered layout layouts/application.html.erb (Duration: 174.1ms | Allocations: 38699)
+Completed 200 OK in 189ms (Views: 180.3ms | ActiveRecord: 0.0ms | Allocations: 42120)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 12:27:35 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 2.2ms | Allocations: 385)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3870)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4675)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:27:40 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4432)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4715)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 12:27:54 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3219)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 3500)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:27:56 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3692)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 4467)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:27:57 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4434)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 4711)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:28:31 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3237)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 3495)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:40:53 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2195)
+  Rendered layout layouts/application.html.erb (Duration: 109.4ms | Allocations: 38703)
+Completed 200 OK in 127ms (Views: 116.0ms | ActiveRecord: 0.0ms | Allocations: 42125)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:40:55 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3684)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4461)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:41:13 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4431)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 4714)
+
+
+Started GET "/result?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 12:41:16 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 2.0ms | Allocations: 390)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3872)
+Completed 200 OK in 31ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 8519)
+
+
+Started GET "/form" for ::1 at 2022-11-08 12:41:20 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4442)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4725)
+
+
+Started GET "/" for ::1 at 2022-11-08 12:41:22 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3240)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3499)
+
+
+Started GET "/" for ::1 at 2022-11-08 22:38:44 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 37011)
+Completed 200 OK in 84ms (Views: 76.2ms | ActiveRecord: 0.0ms | Allocations: 40434)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:38:46 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1955)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5471)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6251)
+
+
+Started GET "/result?num=10000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:38:50 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"10000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 2.0ms | Allocations: 394)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3861)
+Completed 200 OK in 56ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 43450)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:38:54 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1210)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4431)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4714)
+
+
+Started GET "/" for ::1 at 2022-11-08 22:39:04 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3246)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3505)
+
+
+Started GET "/" for ::1 at 2022-11-08 22:41:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 99.8ms | Allocations: 36974)
+Completed 200 OK in 111ms (Views: 104.8ms | ActiveRecord: 0.0ms | Allocations: 40396)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:41:30 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1532)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1631)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2384)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num => 10, {:class => 'form-control', :min => 0} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num => 10, {:class => 'form-control', :min => 0} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected ')', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/" for ::1 at 2022-11-08 22:48:36 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 177.6ms | Allocations: 37435)
+Completed 200 OK in 186ms (Views: 180.5ms | ActiveRecord: 0.0ms | Allocations: 40858)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:48:38 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1526)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 1625)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2378)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:39 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1196)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1943)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2832)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:40 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1154)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1235)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1471)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:41 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1258)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2375)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5175)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:41 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1154)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1234)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4401)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:43 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1153)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1233)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1465)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:43 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1155)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1235)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1467)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:45 +0300
+Started GET "/form" for ::1 at 2022-11-08 22:48:45 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1153)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1233)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1465)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/form" for ::1 at 2022-11-08 22:48:45 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1158)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1238)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1470)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1164)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2249)
+Completed 500 Internal Server Error in 440ms (ActiveRecord: 0.0ms | Allocations: 302215)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <main class = "form-main">
+  <div class = "form-container">
+    <h2>Задание:</h2> 
+    <p>Простое число называется числом Мерсенна, если оно может быть пред-
+    ставлено в виде 2p − 1, где p – тоже простое число. 
+    </p>
+    <p>Написать программу,
+    определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+    клавиатуры).</p>
+    <p>Вывести на печать числа Мерсенна и их количество в ука-
+    занном диапазоне.</p>
+    <h2>Ввод</h2>
+    <%= form_with url: "/result", method: :get do |form| %>
+      <p><%= form.label :query, "Введите положительное число n" %></p>
+      <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+      <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+    <% end %>
+  </div>
+</main>
+
+):
+1:    <main class = "form-main">
+2:      <div class = "form-container">
+3:        <h2>Задание:</h2> 
+4:        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+5:        ставлено в виде 2p − 1, где p – тоже простое число. 
+6:        </p>
+7:        <p>Написать программу,
+8:        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+9:        клавиатуры).</p>
+10:        <p>Вывести на печать числа Мерсенна и их количество в ука-
+11:        занном диапазоне.</p>
+12:        <h2>Ввод</h2>
+13:        <%= form_with url: "/result", method: :get do |form| %>
+14:          <p><%= form.label :query, "Введите положительное число n" %></p>
+15:          <p><%= form.number_field(:num, {:class => 'form-control', :min => 0, :value = 10} ) %></p>
+16:          <p><%= form.submit "Найти числа Мерсена до n", :class => 'form-button' %></p>
+17:        <% end %>
+18:      </div>
+19:    </main>
+  
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:15: syntax error, unexpected '=', expecting =>
+app/views/forms/form.html.erb:17: syntax error, unexpected `end', expecting ')'
+app/views/forms/form.html.erb:22: syntax error, unexpected `end', expecting ')'
+Started GET "/" for ::1 at 2022-11-08 22:48:48 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 28191)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 28460)
+
+
+Started GET "/" for ::1 at 2022-11-08 22:49:08 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 448)
+  Rendered layout layouts/application.html.erb (Duration: 164.1ms | Allocations: 37360)
+Completed 200 OK in 174ms (Views: 167.4ms | ActiveRecord: 0.0ms | Allocations: 40787)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:49:11 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1964)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 5460)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 6241)
+
+
+Started GET "/result?num=10&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:49:15 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"10", "commit"=>"Найти числа Мерсена до n"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1520)
+
+
+  
+NoMethodError (undefined method `map' for nil:NilClass
+
+    @p_result = @result.map { |n| Math.log(n + 1, 2).to_i }
+                       ^^^^):
+  
+app/controllers/results_controller.rb:24:in `result'
+Started GET "/form" for ::1 at 2022-11-08 22:49:32 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1278)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 16187)
+Completed 200 OK in 24ms (Views: 23.5ms | Allocations: 16823)
+
+
+Started GET "/result?num=10&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:49:34 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"10", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2056)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2144)
+Completed 500 Internal Server Error in 12ms (Allocations: 2928)
+
+
+  
+ActionView::Template::Error (undefined method `size' for nil:NilClass
+
+'.freeze;     unless @result.size.zero? 
+                            ^^^^^):
+    1: <main class = "result-main">
+    2:     <h1>Числа Мерсенна в диапазоне [0, <%= @input%>]</h1>
+    3: 
+    4:     <% unless @result.size.zero? %>
+    5:         <table class = "table-bordered">
+    6:             <thead>
+    7:                 <tr>
+  
+app/views/results/result.html.erb:4
+Started GET "/form" for ::1 at 2022-11-08 22:49:57 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1504)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 5247)
+Completed 200 OK in 23ms (Views: 21.5ms | Allocations: 6076)
+
+
+Started GET "/result?num=10&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:49:59 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"10", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2032)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2121)
+Completed 500 Internal Server Error in 8ms (Allocations: 2786)
+
+
+  
+ActionView::Template::Error (undefined method `size' for nil:NilClass
+
+'.freeze;     unless @result.size.zero? 
+                            ^^^^^):
+    1: <main class = "result-main">
+    2:     <h1>Числа Мерсенна в диапазоне [0, <%= @input%>]</h1>
+    3: 
+    4:     <% unless @result.size.zero? %>
+    5:         <table class = "table-bordered">
+    6:             <thead>
+    7:                 <tr>
+  
+app/views/results/result.html.erb:4
+Started GET "/form" for ::1 at 2022-11-08 22:50:06 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1504)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5220)
+Completed 200 OK in 18ms (Views: 16.5ms | Allocations: 6048)
+
+
+Started GET "/result?num=10&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:50:08 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"10", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.7ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3845)
+Completed 200 OK in 18ms (Views: 15.8ms | Allocations: 4540)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:50:10 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4445)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 4719)
+
+
+Started GET "/" for ::1 at 2022-11-08 22:59:38 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 172.0ms | Allocations: 37152)
+Completed 200 OK in 188ms (Views: 177.6ms | ActiveRecord: 0.0ms | Allocations: 40575)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:59:42 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 24.9ms | Allocations: 4259)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 7742)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 8522)
+
+
+Started GET "/form" for ::1 at 2022-11-08 22:59:55 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1511)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5214)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 6095)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 22:59:58 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 5.4ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 3846)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 4649)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:00:00 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4436)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4714)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:00:05 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1509)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5191)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 23:00:12 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.9ms | Allocations: 367)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3814)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4478)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:00:14 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4435)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4713)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:02:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2220)
+  Rendered layout layouts/application.html.erb (Duration: 80.5ms | Allocations: 39001)
+Completed 200 OK in 89ms (Views: 83.3ms | ActiveRecord: 0.0ms | Allocations: 42423)
+
+
+Started GET "/result?num=0&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 23:02:51 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"0", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.2ms | Allocations: 380)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3844)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4649)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:02:52 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1234)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4443)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4726)
+
+
+Started GET "/" for ::1 at 2022-11-08 23:02:57 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3686)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4461)
+
+
+Started GET "/" for ::1 at 2022-11-08 23:11:00 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 448)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 36925)
+Completed 200 OK in 81ms (Views: 74.5ms | ActiveRecord: 0.0ms | Allocations: 40350)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:11:01 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1970)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 5471)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 6251)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-08 23:11:03 +0300
+Processing by ResultsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering results/result.html.erb within layouts/application
+  Rendered results/result.html.erb within layouts/application (Duration: 1.1ms | Allocations: 382)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3861)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4710)
+
+
+Started GET "/form" for ::1 at 2022-11-08 23:11:05 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1223)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4432)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 4715)
+
+
+Started GET "/" for ::1 at 2022-11-08 23:11:07 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3244)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 3507)
+
+

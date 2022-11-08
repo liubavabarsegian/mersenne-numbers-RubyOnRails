@@ -1,19 +1,19 @@
 <main class = "result-main">
-    <h1>Числа Мерсена в диапазоне [0, <%= @input%>]</h1>
+    <h1>Числа Мерсенна в диапазоне [0, <%= @input%>]</h1>
 
     <% unless @result.size.zero? %>
         <table class = "table-bordered">
             <thead>
                 <tr>
-                    <th>Число Мерсена</th>
+                    <th>Число Мерсенна</th>
                     <th>Соответствующее число p, при котором (2<sup>p</sup> - 1) равно числу Мерсена</th>
                 </tr>
             </thead>
             <tbody>
                 <%i = 0%>
-                <% while i < @result.size do %>
+                <% while i < @result_m.size do %>
                     <tr>
-                        <td><%= @result[i]%></td>
+                        <td><%= @result_m[i]%></td>
                         <td><%= @p_result[i]%></td>
                     </tr>
                     <%i+= 1%>
@@ -21,6 +21,6 @@
             </tbody>
         </table>
     <% end %>
-    <h3>Количество чисел Мерсена: <%= @result.size %></h3>
+    <h3>Количество чисел Мерсена: <%= @result_m.size %></h3>
     <div id = "go-back"><%= link_to "Вернуться назад", 'form' %></div>
 </main>
