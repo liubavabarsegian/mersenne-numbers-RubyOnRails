@@ -1,9 +1,11 @@
-class FormsController < ApplicationController
-  def form
-  end
+# frozen_string_literal: true
 
-  attr_reader :result_m, :input
-  attr_writer :input
+# class FormsController
+class FormsController < ApplicationController
+  def form; end
+
+  attr_accessor :input
+  attr_reader :result_m
 
   def prime?(num)
     return true if num == 2
@@ -19,9 +21,9 @@ class FormsController < ApplicationController
   def mersenne_to_n(num)
     (2...num).select { |i| mersenne?(i) }
   end
-  
+
   def result
-    @input = params[:num].to_i #unless params[:one].blank? && params[:two].blank?
+    @input = params[:num].to_i # unless params[:one].blank? && params[:two].blank?
     @result_m = mersenne_to_n(@input)
     @p_result = @result_m.map { |n| Math.log(n + 1, 2).to_i }
     @result_m
