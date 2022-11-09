@@ -3,7 +3,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(176, 171, 218);
+    background-color: #020305;
 
 }
 .form-container
@@ -14,16 +14,24 @@
 {
     font-size: 40px;
     text-align: left;
+    color: #ab44db;
 }
 p
 {
     font-size: 25px;
+    color: #ab44db;
 }
 .form-button
 {
     border-radius: 15px;
+    background-color: #ab44db;
 }
 .form-button:hover
 {
-    background-color: rgb(210, 187, 232);
+    background-color: #930dd6;
+}
+form .form-control
+{
+    width: 500px;
+    background-color: #bb8bd2;;;
 }

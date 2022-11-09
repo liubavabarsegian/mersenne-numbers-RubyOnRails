@@ -484,3 +484,947 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3450)
 
 
+Started GET "/form" for ::1 at 2022-11-09 18:45:06 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2210)
+  Rendered layout layouts/application.html.erb (Duration: 218.7ms | Allocations: 38717)
+Completed 200 OK in 230ms (Views: 222.3ms | ActiveRecord: 0.0ms | Allocations: 42125)
+
+
+Started GET "/" for ::1 at 2022-11-09 18:45:07 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 3608)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4384)
+
+
+Started GET "/form" for ::1 at 2022-11-09 18:45:12 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4401)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 4684)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 18:45:14 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 2.4ms | Allocations: 329)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 3465)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 3824)
+
+
+Started GET "/" for ::1 at 2022-11-09 18:45:18 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3174)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 3436)
+
+
+Started GET "/form" for ::1 at 2022-11-09 18:45:20 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4350)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4608)
+
+
+Started GET "/form" for ::1 at 2022-11-09 18:45:22 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 4363)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 4621)
+
+
+Started GET "/form" for ::1 at 2022-11-09 18:45:23 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4374)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 4632)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 18:45:24 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3202)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3478)
+
+
+Started GET "/result?num=50000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 18:45:30 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"50000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3223)
+Completed 200 OK in 451ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 198386)
+
+
+Started GET "/form" for ::1 at 2022-11-09 18:45:37 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4369)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4627)
+
+
+Started GET "/result?num=10000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 22:48:41 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"10000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 1.8ms | Allocations: 650)
+  Rendered layout layouts/application.html.erb (Duration: 121.8ms | Allocations: 47412)
+Completed 200 OK in 247ms (Views: 126.0ms | ActiveRecord: 0.0ms | Allocations: 89653)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:48:47 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3630)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4407)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:48:52 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1931)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 5270)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 5652)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 22:48:54 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3183)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3505)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:48:58 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3185)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3448)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:48:59 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4375)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 4633)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:48:59 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3178)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 3436)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:49:01 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4367)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4625)
+
+
+Started GET "/result?num=1000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 22:49:03 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"1000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3200)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 7309)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:49:10 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3199)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3457)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:49:46 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 5959)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6217)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:49:46 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3183)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3439)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:49:57 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5875)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6131)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:50:03 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 5877)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6133)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:50:24 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5885)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6141)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:50:35 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 5888)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 6144)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:51:05 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 5892)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 6148)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:51:26 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 7027)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 7283)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:52:33 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 7145)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7401)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:52:39 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 7260)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 7519)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:52:39 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3194)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3450)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:55:14 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 7275)
+Completed 200 OK in 29ms (Views: 28.0ms | Allocations: 7530)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:55:14 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3194)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3447)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:55:21 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 7260)
+Completed 200 OK in 28ms (Views: 27.6ms | Allocations: 7515)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:55:21 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3191)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 3444)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:56:13 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 7246)
+Completed 200 OK in 26ms (Views: 25.5ms | Allocations: 7503)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:56:13 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3196)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3449)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:56:23 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 4357)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 4612)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:56:38 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6695)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 6950)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:56:38 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3179)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 3432)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:56:40 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 4360)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 4615)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:57:01 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 7709)
+Completed 200 OK in 36ms (Views: 35.1ms | Allocations: 7964)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:57:01 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3185)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 3438)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:02 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4367)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 4623)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:10 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7909)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 8165)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:10 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4361)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4614)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:36 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 7870)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 8125)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:36 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4360)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 4613)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:49 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 7873)
+Completed 200 OK in 28ms (Views: 27.0ms | Allocations: 8128)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:57:49 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4368)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 4621)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:02 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 7874)
+Completed 200 OK in 27ms (Views: 26.1ms | Allocations: 8130)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:02 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4350)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 4603)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:30 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 7890)
+Completed 200 OK in 28ms (Views: 27.2ms | Allocations: 8145)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:30 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4358)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 4611)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:31 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4358)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 4613)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:48 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 7896)
+Completed 200 OK in 30ms (Views: 29.6ms | Allocations: 8151)
+
+
+Started GET "/form" for ::1 at 2022-11-09 22:59:48 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4363)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 4616)
+
+
+Started GET "/" for ::1 at 2022-11-09 22:59:57 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3170)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 3425)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:01 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4363)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 4619)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:15 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 7905)
+Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 8160)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:15 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4361)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 4614)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:22 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 7877)
+Completed 200 OK in 28ms (Views: 27.3ms | Allocations: 8132)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:23 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 4357)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 4610)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:24 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 4359)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 4614)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:30 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 7865)
+Completed 200 OK in 29ms (Views: 28.5ms | Allocations: 8120)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:30 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 4349)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 4603)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:45 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 7886)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 8141)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:45 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4351)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 4604)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:53 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 7884)
+Completed 200 OK in 27ms (Views: 26.2ms | Allocations: 8139)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:53 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4372)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 4625)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:00:56 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3190)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 3464)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:00:59 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4359)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4614)
+
+
+Started GET "/result?num=100000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:01:02 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"100000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3206)
+Completed 200 OK in 695ms (Views: 6.0ms | Allocations: 393892)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:12 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7879)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 8134)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:12 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 4363)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 4616)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:01:13 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3175)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 3448)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:15 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 4356)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 4611)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:24 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 7884)
+Completed 200 OK in 28ms (Views: 27.2ms | Allocations: 8139)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:24 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4372)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 4625)
+
+
+Started GET "/result?num=10000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:01:27 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"10000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3196)
+Completed 200 OK in 81ms (Views: 6.3ms | Allocations: 42241)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:59 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 7930)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 8186)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:01:59 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4370)
+Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 4623)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:02:00 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3211)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 3485)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:02:09 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 7914)
+Completed 200 OK in 31ms (Views: 30.2ms | Allocations: 8169)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:02:09 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4361)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4614)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:02:10 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3199)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 3473)
+
+
+Started GET "/" for ::1 at 2022-11-09 23:03:01 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3842)
+Completed 200 OK in 17ms (Views: 15.1ms | Allocations: 4684)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:03:04 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1507)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4925)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 5559)
+
+
+Started GET "/result?num=10000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:03:08 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"10000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.8ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3492)
+Completed 200 OK in 104ms (Views: 6.1ms | Allocations: 42629)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:03:11 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4353)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4608)
+
+
+Started GET "/result?num=500000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:03:15 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"500000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3231)
+Completed 200 OK in 5596ms (Views: 4.8ms | Allocations: 1961988)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:03:24 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4363)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 4618)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:03:31 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3187)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3460)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:03:38 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 8019)
+Completed 200 OK in 32ms (Views: 31.6ms | Allocations: 8274)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:03:38 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4360)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4613)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:03:39 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3184)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 3457)
+
+
+Started GET "/" for ::1 at 2022-11-09 23:03:56 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3232)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 3489)
+
+
+Started GET "/" for ::1 at 2022-11-09 23:03:56 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3212)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 3465)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:04:17 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4377)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 4632)
+
+
+Started GET "/result?num=100000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-09 23:04:24 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"100000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3236)
+Completed 200 OK in 670ms (Views: 5.1ms | Allocations: 393921)
+
+
+Started GET "/form" for ::1 at 2022-11-09 23:04:32 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1202)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4360)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 4615)
+
+
+Started GET "/" for ::1 at 2022-11-09 23:04:34 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3170)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 3425)
+
+

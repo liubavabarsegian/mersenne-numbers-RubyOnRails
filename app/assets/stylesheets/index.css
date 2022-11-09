@@ -1,5 +1,5 @@
 .index-main {
-    background-color: rgb(224, 219, 255);
+    background-color: #020305;
     font-size: 30px;
     height: 100%;
     width: 100%;
@@ -13,8 +13,8 @@
 {
     text-align: center;
     
-    padding: 50px;
-    background-color: rgb(133, 106, 222, 0.5);
+    padding: 150px;
+    background-color: #ab44db;
     border-radius: 20px;
 }
 button {
@@ -22,12 +22,14 @@ button {
     width: 300px;
     border-radius: 20px;
     font-size: 15px;
+    background-color: #020305;
+
 
 }
 button a
 {
     text-decoration: none;
-    color: black;
+    color: #ab44db;
 }
 button:hover {
     background-color: rgb(118, 104, 191);
