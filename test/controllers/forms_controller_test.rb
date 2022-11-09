@@ -1,9 +1,13 @@
-# frozen_string_literal: true
-
-require 'test_helper'
+require "test_helper"
 
 class FormsControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+  test "should get form" do
+    get forms_form_url
+    assert_response :success
+  end
+
+  test "should get result" do
+    get forms_result_url
+    assert_response :success
+  end
 end

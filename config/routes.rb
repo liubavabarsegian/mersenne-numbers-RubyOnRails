@@ -1,12 +1,14 @@
-# frozen_string_literal: true
-
 Rails.application.routes.draw do
   root 'articles#index'
-  # get "/forms", to: "forms#form"
 
   get 'index' => 'articles#index'
-  get 'result' => 'results#result'
+  get 'result' => 'forms#result'
+  #get 'results/result'
   get 'form' => 'forms#form'
+  get 'forms/result'
+  # get 'forms/form'
+  # get 'forms/result'
+  # get 'articles/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
