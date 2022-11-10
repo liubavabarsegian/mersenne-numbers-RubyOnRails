@@ -26,6 +26,7 @@ class FormsController < ApplicationController
     @input = params[:num].to_i # unless params[:one].blank? && params[:two].blank?
     @result_m = mersenne_to_n(@input)
     @p_result = @result_m.map { |n| Math.log(n + 1, 2).to_i }
-    @result_m
   end
+
+  
 end

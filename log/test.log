@@ -1012,3 +1012,45 @@ Processing by FormsController#result as HTML
   Rendered layout layouts/application.html.erb (Duration: 66.0ms | Allocations: 35835)
 Completed 200 OK in 2008ms (Views: 67.0ms | ActiveRecord: 0.0ms | Allocations: 622397)
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 270)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 407)
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3820)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by FormsController#result as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 95)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 220)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1051)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered forms/form.html.erb within layouts/application (Duration: 0.4ms | Allocations: 102)
+  Template rendering was prevented by rspec-rails. Use `render_views` to verify rendered view contents if necessary.
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 225)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 704)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/forms/result?num=150000" for 127.0.0.1 at 2022-11-10 22:15:18 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"150000"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 1.4ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 108.8ms | Allocations: 48309)
+Completed 200 OK in 1754ms (Views: 109.5ms | ActiveRecord: 0.0ms | Allocations: 634871)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m

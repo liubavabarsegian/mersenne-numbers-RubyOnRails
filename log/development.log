@@ -1428,3 +1428,148 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 3425)
 
 
+Started GET "/" for ::1 at 2022-11-10 22:11:27 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 449)
+  Rendered layout layouts/application.html.erb (Duration: 234.0ms | Allocations: 46421)
+Completed 200 OK in 251ms (Views: 239.6ms | ActiveRecord: 0.0ms | Allocations: 49829)
+
+
+Started GET "/form" for ::1 at 2022-11-10 22:12:01 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1921)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 5373)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6152)
+
+
+Started GET "/result?num=10000&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-10 22:12:43 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"10000", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 1.5ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3528)
+Completed 200 OK in 76ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 42720)
+
+
+Started GET "/form" for ::1 at 2022-11-10 22:13:11 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4388)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 4646)
+
+
+Started GET "/result?num=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D1%87%D0%B8%D1%81%D0%BB%D0%B0+%D0%9C%D0%B5%D1%80%D1%81%D0%B5%D0%BD%D0%B0+%D0%B4%D0%BE+n" for ::1 at 2022-11-10 22:13:13 +0300
+Processing by FormsController#result as HTML
+  Parameters: {"num"=>"", "commit"=>"Найти числа Мерсена до n"}
+  Rendering layout layouts/application.html.erb
+  Rendering forms/result.html.erb within layouts/application
+  Rendered forms/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3197)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3477)
+
+
+Started GET "/form" for ::1 at 2022-11-10 22:13:29 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1201)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4377)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 4635)
+
+
+Started GET "/calc/view.json?v1=123&v2=234&op=*" for ::1 at 2022-11-10 22:52:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+Started GET "/calc/view.json?num=10000&op=*" for ::1 at 2022-11-10 22:53:05 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+Started GET "/calc/view.json?num=10000" for ::1 at 2022-11-10 22:53:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/calc/view.json"):
+  
+Started GET "/result.json?num=10000" for ::1 at 2022-11-10 22:53:24 +0300
+  
+NoMethodError (undefined method `respond_to' for FormsController:Class
+
+  respond_to do |format|
+  ^^^^^^^^^^
+Did you mean?  respond_to?):
+  
+app/controllers/forms_controller.rb:32:in `<class:FormsController>'
+app/controllers/forms_controller.rb:4:in `<main>'
+Started GET "/" for ::1 at 2022-11-10 22:53:33 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 122.4ms | Allocations: 36491)
+Completed 200 OK in 131ms (Views: 125.8ms | ActiveRecord: 0.0ms | Allocations: 38777)
+
+
+Started GET "/form" for ::1 at 2022-11-10 22:53:35 +0300
+  
+NoMethodError (undefined method `respond_to' for FormsController:Class
+
+  respond_to do |format|
+  ^^^^^^^^^^
+Did you mean?  respond_to?):
+  
+app/controllers/forms_controller.rb:32:in `<class:FormsController>'
+app/controllers/forms_controller.rb:4:in `<main>'
+Started GET "/" for ::1 at 2022-11-10 22:53:51 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3208)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 3487)
+
+
+Started GET "/" for ::1 at 2022-11-10 22:55:05 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 61)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 14912)
+Completed 200 OK in 26ms (Views: 25.4ms | Allocations: 15542)
+
+
+Started GET "/form" for ::1 at 2022-11-10 22:55:07 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1858)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 5325)
+Completed 200 OK in 24ms (Views: 22.5ms | Allocations: 6087)
+
+
+Started GET "/result.json?num=7" for ::1 at 2022-11-10 22:55:20 +0300
+Processing by FormsController#result as JSON
+  Parameters: {"num"=>"7"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 278)
+
+
+Started GET "/result.json?num=100000" for ::1 at 2022-11-10 22:55:27 +0300
+Processing by FormsController#result as JSON
+  Parameters: {"num"=>"100000"}
+Completed 200 OK in 1026ms (Views: 0.2ms | Allocations: 390601)
+
+
+Started GET "/form" for ::1 at 2022-11-10 23:06:44 +0300
+Processing by FormsController#form as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering forms/form.html.erb within layouts/application
+  Rendered forms/form.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 4394)
+Completed 200 OK in 27ms (Views: 26.4ms | Allocations: 4669)
+
+
